@@ -25,3 +25,5 @@ test('Operações combinadas', () => {
   const resultado = somar(multiplicar(2, 3), subtrair(10, 5));
   expect(resultado).toBe(11); 
 });
+
+
