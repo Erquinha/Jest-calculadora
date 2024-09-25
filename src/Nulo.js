@@ -20,7 +20,7 @@ test('zero' , () => {
 });
 
 test ('array tem o comprimento correto' , () => {
-    const frutas = ['maçã', 'banana','laranja' ];
+    const frutas = ['siriguela', 'fruta-pão','morango' ];
     expect(frutas).toHaveLength(3);
 });
 
@@ -57,7 +57,7 @@ test('mais existe"stop" em Christoph', () => {
 });
 
 const shoppingList = [
-    'Fraldas',
+    'Creme de pentear',
     'kleenex',
     'saco de lixo',
     'papel toalha',
