@@ -1,5 +1,5 @@
 
-const { somar, subtrair, multiplicar, dividir } = require('./calculadora');
+const { somar, subtrair, multiplicar, dividir } = require ('./calculdora');
 
 test('Soma de dois números', () => {
   expect(somar(1, 2)).toBe(3);
